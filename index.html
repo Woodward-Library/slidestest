@@ -63,7 +63,7 @@
 		<script src="plugin/notes/notes.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
-		<script src="plugin/toolbar/toolbar.js"></script>
+		<script src="plugin/toolbar/toolbar.js" defer></script>
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
@@ -71,9 +71,12 @@
 			Reveal.initialize({
 				hash: true,
 				progress: true,
-				toolbar: true,
+				
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealToolbar ]
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes],
+				dependencies: [
+				  		{ src: 'plugin/toolbar/toolbar.js' }
+				]
 				
 
 			});
