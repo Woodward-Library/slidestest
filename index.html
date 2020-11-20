@@ -45,7 +45,14 @@
 					</section>
 			</section>
 
-
+			<section>This is a poll
+				<h1>What's the best kind of muffin</h1>
+				<ul>
+					<li>blueberry</li>
+					<li>bran</li>
+				</ul>
+			</section>
+			
 			<section>This is a webpage - uses iframe embed
 				<iframe src="https://wiki.ubc.ca/index.php/Library%3ATruncation_and_Wildcard_Symbols?action=render" title="Woodward Library website"></iframe>
 			</section>
@@ -66,6 +73,11 @@
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				
+				dependencies: [
+				//Kyle's adds
+				{src: 'plugin/poll/poll.js', async:true}
+				]
 			});
 		</script>
 	</body>
