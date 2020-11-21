@@ -37,7 +37,7 @@ export default class Keyboard {
 			this.shortcuts['&#8594;  ,  L'] = 'Navigate right';
 			this.shortcuts['&#8593;  ,  K'] = 'Navigate up';
 			this.shortcuts['&#8595;  ,  J'] = 'Navigate down';
-			this.shortcuts['Zoom  ,  ALT + Click'] = 'Zoom In';
+			this.shortcuts['Zoom  ,  ALT Click'] = 'Zoom In';
 		}
 		
 		this.shortcuts['Home  ,  Shift &#8592;']        = 'First slide';
