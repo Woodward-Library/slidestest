@@ -38,7 +38,7 @@ export default class Keyboard {
 			this.shortcuts['&#8593;  ,  K'] = 'Navigate up';
 			this.shortcuts['&#8595;  ,  J'] = 'Navigate down';
 		}
-
+		this.shortcuts['Zoom  ,  ALT + Click']          = 'Zoom In';
 		this.shortcuts['Home  ,  Shift &#8592;']        = 'First slide';
 		this.shortcuts['End  ,  Shift &#8594;']         = 'Last slide';
 		this.shortcuts['B  ,  .']                       = 'Pause';
