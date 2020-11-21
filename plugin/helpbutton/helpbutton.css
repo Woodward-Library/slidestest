@@ -16,7 +16,11 @@
     border-radius: 1.8em;
     box-sizing: border-box;
     height: 3.6em;
-    position: relative;
+    position: fixed;
+    bottom: 1;
+    right: 1;
+    top:10px;
+    left:25px;
     width: 3.6em;
     -webkit-animation: helpbutton-fadein 0.5s linear forwards;
     animation: helpbutton-fadein 0.5s linear forwards;
